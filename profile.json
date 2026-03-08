@@ -1,0 +1,44 @@
+{
+    "name": "Ajwad Hussain",
+    "degree": "Computer Science",
+    "year": 2,
+    "specialization": "Artificial Intelligence",
+    "location": "Chennai,TamilNadu,India",
+    "seeking_roles": ["Software Development","AI/ML"],
+    "skills": {
+        "programming": ["Python", "C", "SQL"],
+        "ai_ml": ["Retrieval-Augmented Generation", "RAG", "Vector Embeddings", "Semantic Search", "Prompt Engineering","Supervised Learning", "Classification", "Regression Analysis"],
+        "libraries": ["NumPy", "Pandas", "Scikit-Learn", "Statsmodels (OLS)", "Sentence-Transformers"],
+        "tools": ["Git", "GitHub", "Docker", "Figma"]
+    },
+    "projects": [
+    {
+      "name": "MentorAI: Custom Full-Stack RAG Tutoring System",
+      "description": "Built a full-stack Retrieval-Augmented Generation tutoring system using FastAPI and Gemini 1.5 Flash. Implemented semantic chunking, vector embeddings (all-MiniLM-L6-v2), and FAISS similarity search to ground LLM responses and reduce hallucinations. Developed a persistent vector-metadata store for source attribution and integrated LaTeX rendering in React for accurate scientific formula visualization.",
+      "tech_used": [
+        "Python",
+        "FastAPI",
+        "Gemini 1.5 Flash",
+        "FAISS",
+        "Sentence Transformers",
+        "all-MiniLM-L6-v2",
+        "React",
+        "LaTeX",
+        "Pickle"
+      ]
+    },
+    {
+      "name": "Interactive Stress Level Prediction Pipeline",
+      "description": "Developed a predictive analytics pipeline using multi-variable linear regression to model relationships between lifestyle metrics and stress levels across 374 profiles. Implemented interaction terms and validated statistical significance using OLS diagnostics, residual analysis, and homoscedasticity checks. Built a robust Python interface with error handling for reliable user interaction.",
+      "tech_used": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Scikit-learn",
+        "Statsmodels",
+        "Linear Regression",
+        "Data Analysis"
+      ]
+    }
+  ]
+}
