@@ -8,7 +8,7 @@ from tools.get_best_matches import get_best_matches
 
 listings = get_internship_listings("AI ML internship India")
 results = compare_profiles(listings)
-best = get_best_matches(results, 10)
+best = get_best_matches(results, 3)
 
 print("TOP 3 MATCHES:")
 print("=" * 40)

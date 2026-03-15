@@ -29,6 +29,7 @@ def get_internship_listings(search_query: str) -> list:
 
     for i in data["data"]:
         listings.append({
+            "job_id": i['job_id'],
             "job_title": i['job_title'],
             "job_description": i['job_description'],
             "employment_type": i['job_employment_type'],
